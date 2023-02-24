@@ -725,6 +725,9 @@ header nav li a {
 .prod-dis div {
     height: 250px;
 }
+    .prod-dis div p{
+    font-size:18px;
+    }    
 .prod-desc h2{
     font-size: 20px;
 }
