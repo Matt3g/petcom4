@@ -675,8 +675,13 @@ header nav li a {
     display: block;
 }
 .main-body .body-section img{
-    display: none;
+    display: none; 
+} 
+.tanks, .loc_img{
+    display: block !important;
+    width: 100% !important;
 }
+
 .main-body .body-section .text {
     text-align: center;
     padding: 50px;
