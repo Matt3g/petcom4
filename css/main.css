@@ -21,6 +21,9 @@ header{
     justify-content: center;
     background-color: #FFCC33;
 }
+.mobile-logo{
+    display: none;
+}
 header img{
     width: 160px;
 }
@@ -627,10 +630,23 @@ footer li a{
 h1{
     font-size: 55px;
 }
+.mobile-logo{
+    width: 100%;
+    background-color: #FFCC33;
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    display: block;
+}
+.mobile-logo img{
+    width: 200px;
+    margin: 0 auto;
+}
 header img{
     display: none;
 }
 header nav{
+    margin-top: 110px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
