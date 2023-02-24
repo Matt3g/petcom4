@@ -19,6 +19,9 @@
 <body>
     <div class="container">
        <!-- Header -->
+       <div class="mobile-logo">
+        <img src="images/logo.png" />
+    </div>
        <header>
         <!-- Logo -->
         <a href="index.html"><img src="images/logo.png" /></a>
@@ -63,14 +66,15 @@
             <section>
                <div>
                 <h2>If you have any questions, please feel free to fill out the form below and submit to us.</h2>
-                <form>
+                <!-- <form> -->
+                <form action="https://formsubmit.co/el/futaza" method="POST">
                     <div>
                         <p>Name:*</p>
                         <input type="text" name="name" id="name"/>
                     </div>
                     <div>
                         <p>Email Address:*</p>
-                        <input type="email" name="name" id="name"/>                 
+                        <input type="email" name="email" id="name"/>                 
                     </div>
                     <div>
                         <p>Telephone number</p>
@@ -78,7 +82,7 @@
                     </div>
                     <div>
                         <p>Message/Question(s)</p>
-                        <input type="text" name="message" id="message"/>
+                        <input type="text" name="essage" id="message"/>
                     </div>
                     <button>Submit</button>
                 </form>
